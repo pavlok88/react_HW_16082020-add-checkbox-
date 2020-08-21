@@ -1,0 +1,15 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&display=swap');
+* {
+  font-family: 'Baloo Tamma 2', -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.15rem;
+  user-select: none;
+}
+body {
+  background-color: lightgrey;
+}

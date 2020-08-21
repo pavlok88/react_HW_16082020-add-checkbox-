@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: grey;
+  .loadBtn, .delBtn{
+    cursor: pointer;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .delBtn {
+    left: 0;
+    bottom: 40px;
+  }
+}
